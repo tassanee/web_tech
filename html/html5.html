@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Html 5 Tag</title>
+        <style>
+            .container{
+                width:900px;
+                margin:0 auto;
+            }
+            .content-area{
+                border-bottom: solid 3px gray;
+                border-top:solid 3px gray;
+            }
+            .main-area{
+                width:66%;
+                float: left;
+            }
+            .sidebar{
+                width: 34%;
+                float: left;
+            }
+/*
+            .fix{
+                clear:both;
+            }
+*/
+            .clearfix:before,
+            .clearfix:after{
+                content: "";
+                display: table;
+            }
+            .clearfix:after{
+                clear:both;
+            }
+            .site-nav ul{
+                margin: 0;
+                padding: 0;
+            }
+            .site-nav li{
+                list-style: none;
+                float:left;
+                margin-right:5px;
+            }
+            .site-nav a{
+                display: block;
+                text-decoration: none;
+                padding: 10px 20px;
+                border: 3px solid #e5e9dc;
+                color:#617140;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Website Title</h1>
+                <p>Website slogan included here.</p>
+                <nav class="site-nav">
+                    <ul class="clearfix">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content-area clearfix">
+                <div class="main-area">
+                   <p>
+                       <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, doloribus, quam. Velit, placeat dicta minus. Suscipit sint quos voluptatibus quia nobis maxime error deserunt in, ipsum, eos perferendis necessitatibus, fugit.</span>
+                       <span>Delectus ex magnam fuga, officiis ipsum nam at ratione, non minus, saepe dolores. Repellendus aspernatur, perferendis numquam assumenda quidem enim, facilis debitis possimus, recusandae repellat dolor commodi a! Laborum, veritatis.</span>
+                       <span>Maiores quaerat voluptates molestiae ad labore ipsa itaque dolorem. A accusamus sit iste delectus. Laudantium quis sed iusto corrupti atque distinctio similique quae fuga dicta, incidunt at repellendus alias soluta!</span>
+                       <span>Inventore exercitationem quos sapiente alias minus iste optio aut voluptatibus iusto, quae repellendus a neque magni autem excepturi accusantium officiis accusamus. Recusandae dignissimos nam, earum nostrum nihil impedit sunt quibusdam?</span>
+                       <span>Quam inventore asperiores voluptatum similique! Autem fugit, accusamus enim minus magnam beatae deleniti dolorum maiores natus nostrum blanditiis architecto quo delectus tenetur maxime, ex harum aperiam. Officiis natus sint cumque!</span>
+                   </p>
+                </div>
+                <aside class="sidebar">
+                    <p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae doloribus quasi iusto architecto earum! Quod minima impedit quisquam ut molestiae quo id numquam earum laboriosam, nisi natus porro, modi tenetur!</span>
+                        <span>Officia perspiciatis ullam quas tenetur deserunt sint nostrum ipsam aut laboriosam sequi ut hic laborum, rerum eos voluptatum ratione corporis vel commodi. Nisi nesciunt corporis reprehenderit suscipit pariatur, ratione necessitatibus.</span>
+                        <span>Tempore accusantium minus vero incidunt nesciunt explicabo dicta magnam, sapiente, sint similique illum vitae repellat mollitia ullam est dolores quam, aliquid assumenda beatae perspiciatis fugit. Nesciunt assumenda, expedita suscipit laborum.</span>
+                        <span>Sint praesentium, aut quisquam corporis ab consequuntur iusto debitis, eligendi sit facilis, laudantium perspiciatis tenetur obcaecati odio aspernatur provident? Pariatur ut molestiae fuga aspernatur quam neque aliquid, beatae provident perspiciatis?</span>
+                        <span>Illo recusandae molestias deserunt repellendus in omnis laborum eius ipsam impedit, autem ab quod placeat similique pariatur exercitationem ad ut asperiores distinctio expedita consectetur vel dolore non porro et. Doloremque.</span>
+                    </p>
+                </aside>
+<!--                <div class="fix"></div>-->
+            </div>
+            <footer>
+                <p>&copy; 2016 - This is the footer.</p>
+            </footer>
+        </div>
+    </body>
+</html>
